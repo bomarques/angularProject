@@ -1,0 +1,5 @@
+<button class="btn btn-primary" (click)="onClick()">Display details</button>
+<p>Sercet password now its {{ password }}</p>
+<div *ngFor="let ordinal of ordinals"
+   [ngStyle]="{backgroundColor : ordinal > 4 ? 'blue' : 'transparent' }">
+  <p [ngClass]="{fontC : ordinal > 4 }"> {{ ordinal }} </div>
